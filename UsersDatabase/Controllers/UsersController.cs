@@ -239,7 +239,7 @@ namespace UsersDatabase.Controllers
         }
 
         #endregion
-        
+
         #region HttpPost
         
         [HttpPost]
@@ -264,7 +264,7 @@ namespace UsersDatabase.Controllers
             _dbContext.SaveChangesAsync();
             return Ok(true);
         }
-              
+
 
         [HttpPost]
         [Route("CreateUser")]
